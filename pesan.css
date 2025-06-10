@@ -1,0 +1,68 @@
+:root {
+  --primary: #57af74;
+  --bg: #ffffd0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: #3f8055;
+  color: #ffffd0;
+  text-decoration: solid;
+}
+
+.contact h2 {
+  padding: 1.4rem 7% 1.4rem;
+  color: aliceblue;
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 0;
+}
+
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  justify-content: center;
+}
+
+.contact .row .pesan {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.contact .row .pesan img {
+  border-radius: 10%;
+}
+
+.contact .row .pesan h3 {
+  margin: 1rem auto 0.5rem;
+}
+
+.pesan h3 {
+  background-color: #bba376; /* Warna cream */
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  margin-top: 10px;
+  outline-color: #0000;
+}
+
+.pesan h3 a {
+  color: #008000; /* Warna hijau */
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pesan h3 a:hover {
+  color: #006400; /* Hijau lebih gelap saat hover */
+}
